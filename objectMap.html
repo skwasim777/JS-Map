@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        // create object 
+        const apples = {name:"Apple"};
+        const banana = {name:"Banana"};
+        const oranges = {name:"Oranges"};
+        // create map 
+        const map = new Map();
+        // add new elements to the map
+        map.set(apples,200);
+        map.set(banana,40);
+        map.set(oranges,80);
+        document.getElementById("demo").innerHTML=map.get(apples);
+</script>
+</body>
+</html>
